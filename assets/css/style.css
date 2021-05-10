@@ -183,7 +183,7 @@ header {
     background-repeat: no-repeat;
     background-position: right;
     width: 50%;
-    height: 80%;
+    height: 100%;
     top: 0;
     right: 0; }
   .slider .shape-01 {
@@ -210,7 +210,7 @@ header {
         position: relative;
         display: block; }
         .slider .banner .wrapper .content h1 {
-          font-size: 3.25rem;
+          font-size: 1.25rem;
           color: #483f3f;
           text-transform: uppercase;
           letter-spacing: 1px;
