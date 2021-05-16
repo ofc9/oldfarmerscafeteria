@@ -203,7 +203,7 @@ header {
     .slider .banner .wrapper {
       display: inline-block;
       margin: 1.25rem 0;
-      transition: all ease .5s;
+      transition: all ease .1s;
       width: 100%;
       padding: 2.5rem 0; }
       .slider .banner .wrapper .content {
