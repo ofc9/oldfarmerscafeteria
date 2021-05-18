@@ -8,7 +8,7 @@
         background-repeat:no-repeat;
         background-position:right;
         width:50%;
-        height:80%;
+        height:100%;
         top:0;
         right:0;
     }
@@ -36,6 +36,7 @@
 
         .wrapper{
             display:inline-block;
+            margin:1.25rem 0;
             transition:all ease .5s;
             width:100%;
             padding:2.5rem 0;
@@ -45,7 +46,7 @@
                 display:block;
 
                 h1{
-                    font-size:1.25rem;
+                    font-size:3.25rem;
                     color:$heading-color;
                     text-transform:uppercase;
                     letter-spacing:1px;
@@ -56,7 +57,16 @@
                     line-height:4.25rem;
                 }
 
-               
+                h5{
+                    font-size: 1.25rem;
+                    font-weight:400;
+                    text-transform:capitalize;
+                    color:$text-primary;
+                    display:block;
+                    margin:.625rem 0;
+                    line-height:1.875rem;
+                }
+
                 ol{
                     li{
                         position: relative;

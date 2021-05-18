@@ -78,7 +78,7 @@ header {
       padding: 0 15px; }
       @media screen and (max-width: 768px) {
         header .main-nav .logo {
-          width: 100%;
+          width: 50%;
           flex: 1 1 100%;
           max-width: 100%;
           padding: 10px 15px; } }
@@ -203,14 +203,14 @@ header {
     .slider .banner .wrapper {
       display: inline-block;
       margin: 1.25rem 0;
-      transition: all ease .1s;
+      transition: all ease .5s;
       width: 100%;
       padding: 2.5rem 0; }
       .slider .banner .wrapper .content {
         position: relative;
         display: block; }
         .slider .banner .wrapper .content h1 {
-          font-size: 1.25rem;
+          font-size: 3.25rem;
           color: #483f3f;
           text-transform: uppercase;
           letter-spacing: 1px;

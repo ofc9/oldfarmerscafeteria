@@ -138,35 +138,6 @@ header{
     }
 }
 
-.menu-toggle {
-    height: 40px;
-    width: 40px;
-    align-items: center;
-    margin: 0px 0 0 40px;
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    right: 10px;
-    top: 20px;
-    color: $icons-color;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 999;
-
-    &::before {
-        position: absolute;
-        content: "\f112";
-        font-size: 25px;
-        color: $heading-color;
-        font-family: Flaticon;
-    }
-
-    @media screen and (max-width: 768px) {
-        opacity: 1;
-        visibility: visible;
-    }
-}
 
 .active::before {
     content: "\f112" !important;
@@ -186,16 +157,4 @@ header{
 
 
 
-// .sup {
-//     position: relative;
-//     background: $icons-color;
-
-//     .menu-toggle {
-//         color: $color-primary;
-
-//         &::before {
-//             color: $color-primary;
-//         }
-//     }
-// }
 
