@@ -28,8 +28,8 @@ body {
     position: relative;
     z-index: 999;
 }
-#loading-center-absolute {
-    position: absolute;
+#loading-center-relative {
+    position: relative;
     left: 50%;
     top: 50%;
     height: 150px;
@@ -46,7 +46,7 @@ body {
     width: 20px;
     height: 20px;
     background-color: #FFF;
-    position: absolute;
+    position: relative;
     left: 65px;
     top: 65px;
     -moz-border-radius: 50% 50% 50% 50%;
@@ -108,7 +108,7 @@ body {
 
 #object_big{
 
-    position: absolute;
+    position: relative;
     width: 50px;
     height: 50px;
     left: 50px;
@@ -349,7 +349,7 @@ header .caption {
     font-size: 12px;
     line-height: 12px;
     left: 30px;
-    position: absolute;
+    position: relative;
 }
 /* singnature */
 .signature{background: url(../images/sign_bg.jpg)no-repeat;background-size: 100% 100%;height: 360px;padding: 0 18px 18px;margin-top:100px;}
@@ -365,7 +365,7 @@ header .caption {
     border-right: 68px solid #c72937;
     bottom: -20px;
     content: "";
-    position: absolute;
+    position: relative;
 }
 .shape .flaticon:before {
     display: block;
@@ -412,7 +412,7 @@ header .caption {
 }
 .classic_btn:after {
     content:"";
-    position:absolute;
+    position:relative;
     border-top:18px solid #dc9e15;
     border-bottom:18px solid #dc9e15;
     border-right:10px solid transparent;
@@ -434,7 +434,7 @@ header .caption {
     font-size: 14px;
     line-height: 17px;
     padding: 20px 26px 2px;
-    position: absolute;
+    position: relative;
 }
 .classic .overlay p {
     margin-bottom: 20px;
@@ -508,7 +508,7 @@ header .caption {
     border-top: 15px solid #d14149;
     content: "";
     left: -8px;
-    position: absolute;
+    position: relative;
     top: 0;
 
     transition: border .3s ease-in-out;
@@ -523,7 +523,7 @@ header .caption {
     font-size: 12px;
     left: -3px;
     padding: 6px 20px;
-    position: absolute;
+    position: relative;
     text-transform: uppercase;
     top: -3px;
     z-index: 1;
@@ -534,7 +534,7 @@ header .caption {
     border-right: 8px solid transparent;
     border-top: 15px solid #d14149;
     content: "";
-    position: absolute;
+    position: relative;
     right: -8px;
     top: 0;
 
@@ -561,7 +561,7 @@ header .caption {
     border-top: 15px solid rgba(0, 0, 0, 0.15);
     content: "";
     left: -8px;
-    position: absolute;
+    position: relative;
     top: 0;
 }
 .info_btn_shadow {
@@ -578,7 +578,7 @@ header .caption {
     border-right: 8px solid transparent;
     border-top: 15px solid rgba(0, 0, 0, 0.15);
     content: "";
-    position: absolute;
+    position: relative;
     right: -8px;
     top: 0;
 }
@@ -812,7 +812,7 @@ address,.subscribe > p {
 
 .scrollup i {
     font-size: 13px;
-    position: absolute;
+    position: relative;
     opacity: 1;
     color: #fff;
     left: 50%;
