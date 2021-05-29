@@ -167,7 +167,7 @@ function myMap() {
     var iconBase = 'src/assets/img/map-marker.png';
 
     var mapProp= {
-        center:new google.maps.LatLng(51.508742,-0.120850),
+        center:new google.maps.LatLng(29.685198374976054, 75.57593161349389),
         zoom:10,
         icon: iconBase,
           zoomControlOptions: {
